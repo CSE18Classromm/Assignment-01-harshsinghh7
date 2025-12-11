@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Cards</title>
+
+<style>
+    body{
+        font-family: Arial;
+        padding: 20px;
+    }.container{
+ display: flex;
+flex-wrap: wrap;
+ gap: 15px;
+    }
+.card{
+        width: 250px; 
+border: 1px solid #bbb;
+padding: 15px;
+border-radius: 6px;
+text-align: center;}
+.name{
+font-size: 20px;
+ color: green;
+    }
+ .role{
+ color: gray;
+        margin-bottom: 30px;
+    }
+
+    button{
+    background: green;
+    color: white;
+ border: none;
+    padding: 6px 12px;
+        border-radius: 4px;
+    }
+
+@media(max-width:600px){
+.card{
+ width: 100%;
+}
+    }
+</style>
+
+</head>
+<body><h2>Student Profile Cards</h2>
+
+<div class="container">
+
+    <div class="card">
+        <h3 class="name">HARSH SINGH</h3>
+        <p class="role">CSE</p>
+        <button>View</button>
+    </div>
+
+</div>
+
+</body>
+</html>
