@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Nav Bar</title>
+<style>
+nav{display: flex ; background:brown ; padding:5px;}
+
+ .logo {
+color:white;
+font-size: 18px;
+ text-align: center;
+flex: 1;  
+}
+nav {
+display: flex;
+justify-content:space-between ;
+
+
+li{margin:8px ; }
+.menu{display :none  ;flex-direction: column; cursor:pointer;}
+.menu div{background: yellow ; height:7px ;width:20px; margin:8px;}
+
+@media(max-width:700px){
+ul{position:center ;top:35px;right:0;background:white;
+flex-direction:column ;width:120px;   height:10px;}
+.menu{display:flex;}
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo" >Site </div>
+<ul id="nav">
+ <li><a href="link">Home </a></li>
+ <li><a href="link">About </a></li>
+  <li><a href="link">Sevice </a></li>
+ <li><a href="link">Contat </a></li>
+</ul>
+
+<div class="menu">
+<div></div><div></div><div></div>
+</div>
+</nav>
+</body>
+</html>
